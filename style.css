@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+h1 {
+  font-size: 2.4rem;
+}
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 6%;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+.anywhere {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 30px;
+  padding-top: 5%;
+}
+.left {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 6% 0 0 6%;
+}
+.left h1 {
+  font-size: 2.4rem;
+}
+.left p {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 24px;
+  padding-right: 1%;
+}
+input {
+  width: 350px;
+  padding: 12px;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  padding: 13px;
+  width: 200px !important;
+  margin-left: 2%;
+  border: none;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.189);
+  border-radius: 4px;
+}
+input[type="submit"]:hover,input[type="submit"]:active{
+    background-color: hsl(224, 96%, 62%);
+    cursor: pointer;
+}
+.right {
+  background-image: url(./images/illustration-1.svg);
+  width: 52%;
+  height: 90vh;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+.productive {
+  height: 110vh;
+  display: flex;
+  background-image: url(./images/bg-curve-desktop.svg);
+  background-size: 380% 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 10%;
+  margin-top: 5%;
+}
+.productive > div {
+  width: 50%;
+  height: 100%;
+}
+.left-prod {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 8% 0 0 8%;
+}
+.left-prod p {
+  font-size: 14px;
+  padding-right: 26%;
+  font-weight: 500;
+}
+.left-prod a {
+  display: flex;
+  color: hsl(170, 45%, 43%);
+}
+.left-prod a:hover,.left-prod a:active{
+    color: hsl(170, 61%, 59%);
+}
+.left-prod a svg {
+  transform: scale(1.2);
+}
+.left-prod a span {
+  width: 18px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin-left: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(170, 45%, 43%);
+}
+.a1:hover span, .a1:active span {
+    background-color: hsl(170, 61%, 59%);
+}
+.left-prod a path {
+  fill: white;
+}
+.quote {
+  width: 360px;
+  height: 210px;
+  background-color: white;
+  padding: 4%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 11px 1px #0000001a;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.quote svg {
+  transform: scale(1.4);
+}
+.quote p {
+  padding-right: 9%;
+  font-size: 13px;
+  line-height: 25px;
+}
+.profile {
+  display: flex;
+  gap: 10px;
+}
+.profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.profile > span {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  font-weight: 600;
+}
+.profile > span span:last-of-type {
+  font-size: 9px;
+  font-weight: normal;
+}
+.right-prod {
+  background-image: url(./images/illustration-2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.early {
+  height: 50vh;
+  background-color: hsl(238, 22%, 44%);
+  display: flex;
+  color: white;
+}
+.early > div {
+  width: 50%;
+}
+.left-early {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+  padding: 0 9%;
+}
+.left-early p{
+    line-height: 25px;
+}
+
+.right-early form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: flex-start;
+  padding-left: 13%;
+  height: 100%;
+}
+.right-early form input {
+  width: 450px;
+  border: none;
+  box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.178);
+  padding:15px ;
+}
+.right-early form input[type="submit"]{
+    margin: 0;
+}
+footer {
+    height: 75vh;
+    display: flex;
+    gap: 3%;
+    padding: 0  2% 0 8%;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    position: relative;
+  }
+  footer .one,
+  footer .four {
+    width: 30%;
+  }
+  footer .two,
+  footer .three {
+    width: 20%;
+    font-size: 18px;
+  }
+  footer > div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+  }
+  footer path {
+    fill: white;
+  }
+  footer .one {
+    gap: 8%;
+    width: 45%;
+  }
+  footer .one div{
+      width: 100%;
+      display: flex;
+      /* align-items: center; */
+      gap: 9%;
+  }
+  footer .one svg{
+      vertical-align: bottom;
+  }
+  footer .two{
+      margin-left: 11%;
+  }
+  footer .icons {
+    display: flex;
+    gap: 20px;
+  }
+  footer a {
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 50%;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  footer a:hover,
+  footer a:active,
+  footer a:hover i,
+  footer a:active i {
+    border-color: hsl(224, 96%, 62%);
+    color: hsl(224, 96%, 62%);
+  }
+  
+  footer .four {
+    display: flex;
+    flex-direction: column;
+    gap: 13%;
+    height: 100%;
+  }
+  footer .four p{
+      font-size: 13px;
+      margin-top: 50%;
+      margin-bottom: -50%;
+  }
+  footer .two span:hover,footer .two span:active,footer .three p:hover,footer .three p:active{
+    cursor: pointer;
+    color: hsl(239, 27%, 57%);
+}
